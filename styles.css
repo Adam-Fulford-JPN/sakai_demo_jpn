@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px auto; /* Center horizontally */
+  background: #fff;
+  color: #333;
+  max-width: 600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box; /* Ensures padding is included in the width calculation */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  text-align: left; /* Left-align all content in the container */
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Add slight spacing below the image */
+}
+
+.styled-list {
+  font-size: 16px; /* Increase font size */
+  line-height: 1.5; /* Add vertical space between lines */
+  padding-left: 20px; /* Indent the list slightly */
+}
+
+.styled-list li {
+  margin-bottom: 10px; /* Add space below each list item */
+}
+
+.styled-list a {
+  text-decoration: none; /* Remove underline from links */
+  color: #0073e6; /* Set link color */
+}
+
+.styled-list a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.text-section {
+  margin: 10px 0;
+}
+
+h2 {
+  margin-bottom: 10px; /* Add space below the subheading */
+  font-size: 20px; /* Slightly smaller than main heading */
+}
+
+h1 {
+  margin-top: 10px; /* Add spacing above the main heading */
+  font-size: 32px; /* Increase size for prominence */
+  text-align: left; /* Align the headline to the left */
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc; /* Light gray line */
+  margin: 20px 0; /* Add vertical spacing */
+}
+
+.text-section p {
+  text-align: left;
+  margin: 5px 0;
+}
+
+.text-section, .container {
+  padding: 0; /* Remove extra padding */
+}

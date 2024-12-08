@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Sakai City - History</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+   <h2>A history of innovation</h2>
+  <hr>
+  <h1>Sakai, Osaka Prefecture</h1>
+  <div class="video-section">
+    <video controls width="100%">
+      <source src="media/wagashi.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  <div class="text-section">
+    <h2>Wagashi</h2>
+    <p>In the 15th and 16th centuries, Sakai was a city of sophisticated culture with a focus on the Way of Tea. Many people admired tea-related items with elaborate Chinese motifs. Sen no Rikyu, a native of Sakai, instead emphasized simplicity and seasonal awareness. Wagashi confectionery, whose sweetness offset the bitterness of matcha, could be fashioned into flowers and other items that evoked a sense of nature and the season. For more information, visit the Denshokan Museum, where they sometimes organize wagashi demonstrations. It's a 10-minute walk from Sakai Station.</p>
+  </div>
+
+  <div class="audio-section">
+    <audio id="audioPlayer" src="media/wagashi.mp3"></audio>
+    <button onclick="document.getElementById('audioPlayer').play()">Play Audio</button>
+    <button onclick="document.getElementById('audioPlayer').pause(); document.getElementById('audioPlayer').currentTime=0;">Stop Audio</button>
+  </div>
+
+  <!-- Video Section (optional) -->
+  <div class="video-section">
+    <!-- If you have a video, uncomment and adjust the source:
+    <video controls width="100%">
+      <source src="media/sample-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    -->
+  </div>
+
+  <div class="nav-section">
+    <a href="index.html">Top Page</a> or <a href="knives.html">Next</a> 
+  </div>
+</div>
+</body>
+</html>

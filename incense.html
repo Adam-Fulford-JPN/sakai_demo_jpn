@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Sakai City - History</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+   <h2>A history of innovation</h2>
+  <hr>
+  <h1>Sakai, Osaka Prefecture</h1>
+<div class="container">
+  <img src="images/incense.jpg" alt="Incense" class="main-image"/>
+
+  <div class="text-section">
+    <h2>Incense</h2>
+    <p>The development of tools for kofun construction laid the foundation for a metalworking industry that has contributed to Sakai's prosperity ever since. Metal tools would have been essential for felling trees to produce the timber that was used to build ships that sailed from Sakai on trade routes to China, the Ryukyu Kingdom, and beyond. Among the items being brought ashore in Sakai in the 15th and 16th centuries was aromatic wood, from which incense could be made for use in religious and cultural pursuits. Incense, too, remains central to Sakai's identity.</p>
+  </div>
+
+  <div class="audio-section">
+    <audio id="audioPlayer" src="media/incense.mp3"></audio>
+    <button onclick="document.getElementById('audioPlayer').play()">Play Audio</button>
+    <button onclick="document.getElementById('audioPlayer').pause(); document.getElementById('audioPlayer').currentTime=0;">Stop Audio</button>
+  </div>
+
+  <!-- Video Section (optional) -->
+  <div class="video-section">
+    <!-- If you have a video, uncomment and adjust the source:
+    <video controls width="100%">
+      <source src="media/sample-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    -->
+  </div>
+
+  <div class="nav-section">
+    <a href="index.html">Top Page</a> or <a href="wagashi.html">Next</a> 
+  </div>
+</div>
+</body>
+</html>
